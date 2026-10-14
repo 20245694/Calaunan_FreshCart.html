@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WynMart - Food, Items and Clothing</title>
+</head>
+<body>
+    <header id="top">
+        <h1>WynMart</h1>
+        <p>Everything You Need, All in One Place.</p>
+
+        <form action="#" method="get">
+            <label for="search">Search products:</label>
+            <input type="search" id="search" name="search" placeholder="Search FreshCart">
+            <button type="submit">Search</button>
+        </form>
+
+        <p><a href="#cart">View Cart</a></p>
+
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#food">Food</a> |
+            <a href="#items">Items</a> |
+            <a href="#clothing">Clothing</a> |
+            <a href="#cart">Cart</a> |
+            <a href="#checkout">Checkout</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Everything You Need, All in One Place.</h2>
+            <p>Welcome to WynMart, your convenient online store for fresh food, useful household items, and everyday clothing. Browse our products and find what you need in one place.</p>
+            <a href="#food"><button type="button">Shop Now</button></a>
+            <hr>
+        </section>
+
+        <section id="food">
+            <h2>Food</h2>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td>
+                        <h3>🍉 Fresh Watermelon</h3>
+                        <p>A juicy and refreshing fruit with a sweet taste, perfect for cooling down on a warm day.</p>
+                        <p>Price: <strong>₱120.00 / kg</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td>
+                        <h3>🍋‍🟩 Lime</h3>
+                        <p>A small citrus fruit with a tangy flavor, great for adding a refreshing twist to drinks and dishes.</p>
+                        <p>Price: <strong>₱75.00 / kg</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td>
+                        <h3>🍈 Melon</h3>
+                        <p>A sweet and juicy fruit with soft flesh, perfect for a light snack or a refreshing dessert.</p>
+                        <p>Price: <strong>₱90.00 / kg</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+            </table>
+
+            <h3>Featured Photos</h3>
+
+        <table cellpadding="5" cellspacing="0">
+            <tr>
+                <td>
+                    <figure>
+                        <img src="watermelon.jpg"
+                             alt="Watermelon" width="250" height="170">
+                        <figcaption>
+                            <strong>Watermelon</strong>
+                        </figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img src="lime.jpg"
+                             alt="Lime" width="250" height="170">
+                        <figcaption>
+                            <strong>Lime</strong>
+                        </figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img src="melon.jpg"
+                             alt="Melon" width="250" height="170">
+                        <figcaption>
+                            <strong>Melon</strong>
+                        </figcaption>
+                    </figure>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+        </section>
+
+        <section id="items">
+            <h2>Household Items</h2>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td>
+                        <h3>🪵 Bamboo Cutting Board</h3>
+                        <p>A durable cutting board for slicing fruits, vegetables, and other ingredients.</p>
+                        <p>Price: <strong>₱565.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td>
+                        <h3>🫙 Glass Food Storage Set</h3>
+                        <p>Reusable glass containers that help keep leftover food and prepared ingredients organized.</p>
+                        <p>Price: <strong>₱941.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td>
+                        <h3>🛍️ Reusable Produce Bags</h3>
+                        <p>Lightweight bags for carrying and organizing fresh fruits and vegetables.</p>
+                        <p>Price: <strong>₱376.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+        </section>
+
+        <section id="clothing">
+            <h2>Clothing</h2>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td>
+                        <h3>☀️ UV-Protection Long-Sleeve Shirt</h3>
+                        <p>A lightweight long-sleeve shirt designed for outdoor activities and added sun coverage.</p>
+                        <p>Price: <strong>₱449.00</strong></p>
+
+                        <p>
+                            <label for="shirt-size">Choose size:</label>
+                            <select id="shirt-size" name="shirt-size">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </p>
+
+                        <button type="button">Add to Cart</button>
+                    </td>
+
+                    <td>
+                        <h3>👖 Denim Carpenter Shorts</h3>
+                        <p>Casual denim shorts with practical pockets, suitable for everyday wear and weekend outings.</p>
+                        <p>Price: <strong>₱599.00</strong></p>
+
+                        <p>
+                            <label for="hoodie-size">Choose size:</label>
+                            <select id="hoodie-size" name="hoodie-size">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </p>
+
+                        <button type="button">Add to Cart</button>
+                    </td>
+
+                    <td>
+                        <h3>🌧️ Packable Windbreaker Jacket</h3>
+                        <p>A lightweight jacket that helps protect against wind and light rain while traveling or commuting.</p>
+                        <p>Price: <strong>₱699.00</strong></p>
+
+                        <p>
+                            <label for="hoodie-size">Choose size:</label>
+                            <select id="hoodie-size" name="hoodie-size">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </p>
+
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+        </section>
+
+        <section id="cart">
+            <h2>Your Cart</h2>
+
+            <table border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Subtotal</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>🍉 Fresh Watermelon</td>
+                        <td>₱120.00</td>
+                        <td>
+                            <input type="number" name="apple-qty" min="1" max="20" value="1" aria-label="Fresh Apples quantity">
+                        </td>
+                        <td>₱120.00</td>
+                        <td><button type="button">Remove</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>🪵 Bamboo Cutting Board</td>
+                        <td>₱565.00</td>
+                        <td>
+                            <input type="number" name="soap-qty" min="1" max="20" value="1" aria-label="Dishwashing Liquid quantity">
+                        </td>
+                        <td>₱565.00</td>
+                        <td><button type="button">Remove</button></td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><strong>Total</strong></td>
+                        <td colspan="2"><strong>₱205.00</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <p>
+                <a href="#checkout">
+                    <button type="button">Proceed to Checkout</button>
+                </a>
+            </p>
+            <hr>
+        </section>
+
+        <section id="checkout">
+            <h2>Checkout</h2>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Shipping Details</legend>
+
+                    <p>
+                        <label for="full-name">Full name:</label>
+                        <input type="text" id="full-name" name="full-name" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="09XX XXX XXXX">
+                    </p>
+
+                    <p>
+                        <label for="address">Address:</label><br>
+                        <textarea id="address" name="address" rows="3" cols="40" required></textarea>
+                    </p>
+
+                    <p>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" list="cities">
+
+                        <datalist id="cities">
+                            <option value="Baguio City">
+                            <option value="Manila">
+                            <option value="Quezon City">
+                            <option value="Taguig">
+                            <option value="Cebu City">
+                        </datalist>
+                    </p>
+
+                    <p>
+                        <label for="delivery-date">Delivery date:</label>
+                        <input type="date" id="delivery-date" name="delivery-date">
+                    </p>
+
+                    <p>
+                        <label for="delivery-option">Delivery option:</label>
+                        <select id="delivery-option" name="delivery-option">
+                            <option value="standard">Standard</option>
+                            <option value="express">Express</option>
+                            <option value="pickup">Store Pick-up</option>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Payment Method</legend>
+
+                    <p>
+                        <input type="radio" id="card" name="payment" value="card" checked>
+                        <label for="card">Credit / Debit Card</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="cod" name="payment" value="cod">
+                        <label for="cod">Cash on Delivery</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="ewallet" name="payment" value="ewallet">
+                        <label for="ewallet">E-Wallet</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="ewallet" name="payment" value="ewallet">
+                        <label for="ewallet">Gcash</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="ewallet" name="payment" value="ewallet">
+                        <label for="ewallet">Installment (6/12/24 Months)</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <input type="checkbox" id="gift-wrap" name="extras" value="gift-wrap">
+                    <label for="gift-wrap">Gift wrap</label>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="receipt" name="extras" value="receipt">
+                    <label for="receipt">Include receipt</label>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="agree" name="agree" value="yes" required>
+                    <label for="agree">I agree to the <a href="#terms-info">Terms &amp; Conditions</a></label>
+                </p>
+
+                <button type="submit">Place Order</button>
+                <button type="reset">Clear</button>
+            </form>
+            <hr>
+        </section>
+
+        <section id="contact">
+            <h2>Visit Our Store</h2>
+
+            <iframe
+                title="OpenStreetMap showing Baguio City"
+                width="600"
+                height="400"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=120.5750%2C16.4050%2C120.6000%2C16.4250&amp;layer=mapnik&amp;marker=16.4150%2C120.5875">
+            </iframe>
+
+            <p>
+                <a href="https://www.openstreetmap.org/?mlat=16.4150&amp;mlon=120.5875#map=15/16.4150/120.5875" target="_blank" rel="noopener">View larger map</a>
+            </p>
+
+            <h3>Reach Us</h3>
+            <address>
+                WynMart<br>
+                General Luna Road, Baguio City, Philippines<br>
+                Phone: <a href="tel:+63967 304 7624">(+63)967 304 7624</a><br>
+                Email: <a href="onlyatWynMart@gmail.com">onlyatWynMart@gmail.com</a>
+            </address>
+
+            <h3>Leave a Review</h3>
+
+            <form action="#" method="post" enctype="multipart/form-data">
+                <p>
+                    <label for="review-name">Your name:</label>
+                    <input type="text" id="review-name" name="review-name" required>
+                </p>
+
+                <p>
+                    <label for="rating">Rating (1 to 5):</label>
+                    <input type="range" id="rating" name="rating" min="1" max="5" value="5">
+                </p>
+
+                <p>
+                    <label for="review-message">Your review:</label><br>
+                    <textarea id="review-message" name="review-message" rows="4" cols="40" required></textarea>
+                </p>
+
+                <p>
+                    <label for="review-photo">Upload a photo (optional):</label>
+                    <input type="file" id="review-photo" name="review-photo" accept="image/*">
+                </p>
+
+                <button type="submit">Submit Review</button>
+            </form>
+            <hr>
+        </section>
+
+        <section id="links">
+            <h2>Useful Links</h2>
+
+            <ul>
+                <li><a href="https://www.openstreetmap.org/" target="_blank" rel="noopener">OpenStreetMap</a></li>
+                <li><a href="https://maps.google.com/" target="_blank" rel="noopener">Google Maps</a></li>
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">FreshCart Facebook Page</a></li>
+                <li><a href="#top">Back to top</a></li>
+            </ul>
+            <hr>
+        </section>
+
+        <section id="terms-info">
+            <h2>Terms &amp; Conditions</h2>
+
+            <details>
+                <summary>Read the terms</summary>
+                <ol>
+                    <li>Return requests must be made within seven days of receiving an item. Products should be unused and in good condition.</li>
+                    <li>Delivery dates are estimates and may change because of weather or other delivery conditions.</li>
+                    <li>Customers should check their order details before submitting an order. Available payment methods are shown at checkout.</li>
+                </ol>
+            </details>
+            <hr>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+
+        <p>
+            <a href="#home">About Us</a> |
+            <a href="#contact">Contact</a> |
+            <a href="#terms-info">Shipping Policy</a> |
+            <a href="#terms-info">Returns</a>
+        </p>
+
+        <p>&copy; 2026 WynMart. All rights reserved.</p>
+        <p><a href="#top">Back to top</a></p>
+    </footer>
+</body>
+</html>
+```
